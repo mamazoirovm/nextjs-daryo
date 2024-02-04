@@ -1,0 +1,47 @@
+.wrapper{
+    width: 100%;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    max-width: 1150px;
+    padding: 12px 15px ;
+    margin-top: 45px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.logo{
+    width: 135px !important;
+    height: 44px;
+   
+}
+ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+li{
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-size: 13px;
+}
+.bnt{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #f0f0f0;
+}
+select{
+    color: #f0f0f0;
+    background-color: #000;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
