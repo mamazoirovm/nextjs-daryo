@@ -1,9 +1,11 @@
 import { ReactNode } from "react";
 import "./globals.css";
 
+import dynamic from 'next/dynamic';
 import "./pages.css";
 
 const Layout = (props: { children: ReactNode }) => {
+  
   return (
     <html>
       <body>
@@ -32,11 +34,11 @@ const Layout = (props: { children: ReactNode }) => {
                 <li>sport</li>
                 <li>multimedia</li>
               </ul>
-              <button className="bnt">
+              <button  className="bnt">
                 <i className="fa-solid fa-moon"></i>
               </button>
               <button className="bnt">
-              <i className="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
               <select name="" id="">
                 <option value="">O'zb</option>
@@ -44,7 +46,7 @@ const Layout = (props: { children: ReactNode }) => {
                 <option value="">English</option>
               </select>
               <button className="bnt">
-              <i className="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
               </button>
             </div>
             {props.children}
